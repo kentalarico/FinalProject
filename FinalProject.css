@@ -1,0 +1,54 @@
+h1 {
+	color: black;
+	font-family: "Arial Black";
+	text-align: center;
+}
+
+div {
+	border: 5px;
+	border-style: solid;
+	border-color: white;
+}
+
+body {
+	background-image: url("https://wallpapertag.com/wallpaper/full/2/7/e/448899-widescreen-basketball-court-wallpaper-2560x1440-for-iphone-6.jpg");
+	background-attachment: fixed;
+}
+
+.main {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a: hover {
+	color: #f1f1f1;
+}
+
+form {
+	padding-left: 380px;
+}
+
+iframe {
+	padding-left: 100px;
+	position: center;
+}
